@@ -2,7 +2,9 @@
   "name": "@analogjs-vitest-nx-coverage-bug/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "nx run analogjs-vitest-nx-coverage-bug:test"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "~20.0.0",
